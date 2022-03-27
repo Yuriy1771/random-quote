@@ -1,0 +1,25 @@
+body {
+   background: rgb(255, 211, 226);
+}
+
+.container {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    min-width: 800px;
+    min-height: 500px;
+    max-width: 20000;
+    max-height: 20000px;
+}
+
+.divBorder {
+    position: relative;
+    width: 50%;
+    height: 50%;
+    margin: 10% auto;    
+    border: 10px solid rgb(255, 167, 167);
+    border-radius: 10px;
+    box-shadow: 0 0 50px rgb(255, 173, 201);
+    background: rgb(255, 242, 246);
+
+}
