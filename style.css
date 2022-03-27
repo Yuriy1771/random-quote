@@ -28,25 +28,39 @@ body {
     width: 80%;
     height: 25%;
     left: 10%;
-    top: 35%;
+    top: 20%;
 }
 
-.quotes p {
+.quotes .quoteP {
     position: relative;
     text-align: center;
     font-size: 25px;
   
 }
 
-@media(max-width: 480px) {
-    .quotes p {
+@media(max-width: 1000px) {
+    .quotes .quoteP {
         position: absolute;
         text-align: center;
-        font-size: 25px;
-        top: -45px;
+        font-size: 22px;
+        top: -40px;
     }
 }
 
+
+.quotes .author {
+    position: relative;
+    text-align: center;
+    font-size: 25px;
+}
+
+@media(max-width: 1000px) {
+    .quotes .author {
+        text-align: center;
+        font-size: 22px;
+        top: 150px;
+    }
+}
 
 .btnRandomQuote {
     position: absolute;
