@@ -21,5 +21,56 @@ body {
     border-radius: 10px;
     box-shadow: 0 0 50px rgb(255, 173, 201);
     background: rgb(255, 242, 246);
-
 }
+
+.quotes {
+    position: absolute;
+    width: 80%;
+    height: 25%;
+    left: 10%;
+    top: 35%;
+}
+
+.quotes p {
+    position: relative;
+    text-align: center;
+    font-size: 25px;
+  
+}
+
+@media(max-width: 480px) {
+    .quotes p {
+        position: absolute;
+        text-align: center;
+        font-size: 25px;
+        top: -45px;
+    }
+}
+
+
+.btnRandomQuote {
+    position: absolute;
+    width: 15%;
+    height: 6%;
+    bottom: 18%;
+    left: 42.5%;
+    font-size: 25px;
+    border: 1px solid rgb(255, 167, 167);
+    background:rgb(255, 237, 237);
+    cursor: pointer;
+}
+
+.btnRandomQuote:hover {
+    background:rgb(255, 251, 251);
+    transition: all ease-out .2s;
+    box-shadow: 0 0 5px rgb(255, 173, 201);
+}
+
+@media(max-width: 1348px) {
+    .btnRandomQuote {
+        font-size: 14px;
+        width: 18%;
+        height: 7%;
+    }
+}
+
